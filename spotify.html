@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="icon" href="logospotify.png" />
+    <link rel="stylesheet" href="spotify.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="spotify">
+      <div class="topbar">
+        <div id="logo"><div class="img"></div></div>
+        <a href="#" id="home"><i class="fa-solid fa-house"></i></a>
+        <div id="input">
+          <div><i id="search" class="fa-solid fa-magnifying-glass"></i></div>
+          <input type="text" placeholder="What do you want to play?" />
+        </div>
+        <a href="#" id="explore">Explore Premium</a>
+        <a href="#" id="installed"
+          ><i class="fa-solid fa-download"></i> Install App</a
+        >
+        <a href="#" id="bell"><i class="fa-solid fa-bell"></i></a>
+        <a href="#" id="people"><i class="fa-solid fa-users"></i></a>
+        <a href="#" id="profile"><i class="fa-solid fa-user"></i></a>
+      </div>
+      <div class="sidebar">
+        <div class="sidecontent">
+          <div id="one"><i class="fa-solid fa-book"></i></div>
+          <div id="two"><i class="fa-solid fa-plus" id="plus"></i></div>
+        </div>
+      </div>
+      <div class="mainbar">
+        <div class="topnav">
+          <a href="#" id="all">All</a>
+          <a href="#" id="music">Music</a>
+          <a href="#" id="podcast">Podcasts</a>
+        </div>
+        <div class="heading">India's Best</div>
+
+        <div class="maincontent">
+          <div class="songs">
+            <div class="songimg">
+              <img src="pic1.jpg" alt="songposter" width="100%" />
+            </div>
+            <p>Smoothe your broken heart with these...</p>
+          </div>
+          <div class="songs">
+            <div class="songimg">
+              <img src="pic2.jpg" alt="songposter" width="100%" height="100%" />
+            </div>
+            <p>Smoothe your broken heart with these...</p>
+          </div>
+          <div class="songs">
+            <div class="songimg">
+              <img src="pic3.jpg" alt="songposter" width="100%" />
+            </div>
+            <p>Smoothe your broken heart with these...</p>
+          </div>
+          <div class="songs">
+            <div class="songimg">
+              <img src="pic4.jpg" alt="songposter" width="100%" />
+            </div>
+            <p>Smoothe your broken heart with these...</p>
+          </div>
+          <div class="songs">
+            <div class="songimg">
+              <img src="pic5.jpg" alt="songposter" width="100%" />
+            </div>
+            <p>Smoothe your broken heart with these...</p>
+          </div>
+          <div class="songs">
+            <div class="songimg">
+              <img src="pic6.jpg" alt="songposter" width="100%" />
+            </div>
+            <p>Smoothe your broken heart with these...</p>
+          </div>
+          <div class="songs">
+            <div class="songimg">
+              <img src="pic7.jpg" alt="songposter" width="100%" />
+            </div>
+            <p>Smoothe your broken heart with these...</p>
+          </div>
+          <div class="songs">
+            <div class="songimg">
+              <img src="pic8.jpg" alt="songposter" width="100%" />
+            </div>
+            <p>Smoothe your broken heart with these...</p>
+          </div>
+          <div class="songs">
+            <div class="songimg">
+              <img src="pic9.jpg" alt="songposter" width="100%" />
+            </div>
+            <p>Smoothe your broken heart with these...</p>
+          </div>
+          <div class="songs">
+            <div class="songimg">
+              <img src="pic10.jpg" alt="songposter" width="100%" />
+            </div>
+            <p>Smoothe your broken heart with these...</p>
+          </div>
+          <div class="songs">
+            <div class="songimg">
+              <img src="pic11.jpg" alt="songposter" width="100%" />
+            </div>
+            <p>Smoothe your broken heart with these...</p>
+          </div>
+          <div class="songs">
+            <div class="songimg">
+              <img src="pic12.jpg" alt="songposter" width="100%" />
+            </div>
+            <p>Smoothe your broken heart with these...</p>
+          </div>
+        </div>
+      </div>
+      <div class="footbar">
+        <div class="leftfoot">
+          <div id="songicon">pic</div>
+          <div id="songname">
+            <h3>Siddhu</h3>
+            <h5>Arijit singh , Bennydayal , karan aujla</h5>
+          </div>
+          <div id="plusicon"><i class="fa-solid fa-plus"></i></div>
+        </div>
+        <div class="midfoot">
+          <div class="pause">
+            <div class="pause1"><i class="fa-solid fa-shuffle"></i></div>
+            <div class="pause2"><i class="fa-solid fa-backward-step"></i></div>
+            <div class="pause3"><i class="fa-solid fa-play"></i></div>
+            <div class="pause4"><i class="fa-solid fa-forward-step"></i></div>
+            <div class="pause5"><i class="fa-solid fa-repeat"></i></div>
+          </div>
+          <div class="range">
+            <p>1:10</p>
+            <input type="range" id="songrange" />
+            <p>3.20</p>
+          </div>
+        </div>
+        <div class="rightfoot">
+          <div><i class="fa-solid fa-circle-play"></i></div>
+          <div><i class="fa-solid fa-music"></i></div>
+          <div><i class="fa-solid fa-bars-progress"></i></div>
+          <div><i class="fa-solid fa-headphones-simple"></i></div>
+          <div><i class="fa-solid fa-volume-high"></i></div>
+          <div><input type="range" id="sound" /></div>
+          <div><i class="fa-solid fa-window-maximize"></i></div>
+          <div><i class="fa-solid fa-expand"></i></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
